@@ -1,0 +1,32 @@
+### GET
+GET http://localhost:3000/myworks/atividade
+
+### GET id
+GET http://localhost:3000/myworks/atividade/66ae01fb-03b3-4590-9054-41eef38b0857
+
+### POST
+POST http://localhost:3000/myworks/atividade/
+Content-Type: application/json
+
+{
+    "titulo" : "titulo",
+    "descricao": "descricao",
+    "periodo" : "periodo",
+    "estagio" : 2,
+    "isImportante" : true
+}
+
+### PUT
+PUT http://localhost:3000/myworks/atividade/109ae09e-972b-436c-bc56-12c14db69c73
+Content-Type: application/json
+
+{
+    "titulo" : "alterado",
+    "descricao": "descricaoAlterado",
+    "periodo" : "periodoAlterado",
+    "estagio" : 2,
+    "isImportante" : true
+}
+
+### DELETE
+DELETE http://localhost:3000/myworks/atividade/109ae09e-972b-436c-bc56-12c14db69c73
