@@ -1,0 +1,8 @@
+### GET
+POST http://localhost:3000/myworks/login
+Content-Type: application/json
+
+{
+    "username":"admin",
+    "password":"admin"
+}
